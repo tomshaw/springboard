@@ -1,0 +1,21 @@
+!!!
+html
+  head
+    title= 'Stylus Testing'
+    link(rel='stylesheet', href='/style.css')
+  body
+    #wrapper
+      #page
+        #header
+          h1 Tom Shaw
+          p Stylus Testing
+        #nav
+          ul
+            li
+              a(href='/') Home
+            li
+              a(href='/login') Example Form
+            li
+              a(href='/table') Example Tables
+        #content
+          != body  

@@ -1,0 +1,14 @@
+.page
+  h2 Log In
+  p
+    a.button(href='/register') Create New Account
+  form(method='post', action='/login')
+    fieldset
+      legend User Information
+      ul
+        !=partial('fields', { locals: { user: user } })
+        li
+          label(for='remember_me') Remember me:
+          input(type='checkbox', name='remember_me')
+      div
+        input(type='submit', value='Log In')
