@@ -31,6 +31,6 @@ THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 ### If you want to be awesome.
 - Fork the project and contribute.
 
-### Questions or Comments?
+### Questions or comments?
 
 - Email: [tom@tomshaw.info](mailto:tom@tomshaw.info) 
