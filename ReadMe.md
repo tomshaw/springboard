@@ -1,6 +1,6 @@
 # Introduction
 
-This is a Node.js project created to learn the basics of [Stylus](https://github.com/learnboost/stylus/), a dynamic runtime CSS generation library created by [TJ Holowaychuk](http://tjholowaychuk.com) of [LearnBoost](https://www.learnboost.com/). Goals of the project not counting learning opportunities is to create a boilerplate application to use for future Express applications that I create. 
+This is a Node.js project created to learn the basics of [Stylus](https://github.com/learnboost/stylus/), a dynamic runtime CSS generation library created by [TJ Holowaychuk](http://tjholowaychuk.com) of [LearnBoost](https://www.learnboost.com/). Goals of the project not counting learning opportunities is to create a boilerplate application for use in future Express applications that I create. 
 
 ## Technologies Used
  - Express - 2.4.3
