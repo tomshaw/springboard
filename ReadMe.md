@@ -1,6 +1,6 @@
-# Stylus Templating
+# Introduction
 
-This is a Node.js project created to learn the basics of [Stylus](https://github.com/learnboost/stylus/), a dynamic runtime CSS generation library created by [TJ Holowaychuk](http://tjholowaychuk.com) of [LearnBoost](https://www.learnboost.com/). 
+This is a Node.js project created to learn the basics of [Stylus](https://github.com/learnboost/stylus/), a dynamic runtime CSS generation library created by [TJ Holowaychuk](http://tjholowaychuk.com) of [LearnBoost](https://www.learnboost.com/). Goals of the project not counting learning opportunities is to create a boilerplate application to use for future Express applications that I create. 
 
 ## Technologies Used
  - Express - 2.4.3
@@ -8,6 +8,7 @@ This is a Node.js project created to learn the basics of [Stylus](https://github
  - Stylus - 0.13.9
 
 ## Installation Notes 
+
 Install all of the required dependencies.
 
 	Please run 'npm install' in the project's root directory.
@@ -29,6 +30,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## If you want to be awesome.
+
 - Fork the project and contribute.
 
 ## Questions or comments?
