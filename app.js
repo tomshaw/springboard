@@ -19,10 +19,10 @@ app.configure(function() {
   app.use(express.methodOverride());
   app.use(stylus.middleware({ 
       src: __dirname + '/views/styles'
-    , dest: __dirname + '/public/stylesheets'
+    , dest: __dirname + '/public'
     , compile: compile
   }));
-  app.use(express.static(__dirname + '/public/stylesheets'));
+  app.use(express.static(__dirname + '/public'));
 });
 
 app.get('/', function(req, res){
