@@ -1,3 +1,11 @@
+base-font()
+  font-family "Helvetica Neue", Helvetica, Arial, sans-serif
+  
+round-corners(radius)
+  -moz-border-radius radius
+  -webkit-border-radius radius
+  border-radius radius
+
 * 
   margin 0
   padding 0
@@ -30,14 +38,14 @@ ol, ul, li
 
 p  
   color #333333 
-  font-family "Helvetica Neue", Helvetica, Arial, sans-serif 
+  base-font() 
   font-size 1.3em 
   line-height 1.3em 
   margin .5em 0 
 
 h1,h2,h3,h4,h5,h6  
   color #333333 
-  font-family "Helvetica Neue", Helvetica, Arial, sans-serif 
+  base-font()  
   line-height 1.2em 
   padding .3em 0 
 
@@ -67,7 +75,7 @@ h6
   list-style-image url(../images/unchecked.gif)
   border-bottom 1px solid #ccc
   padding .5em
-  font-family "Helvetica Neue", Helvetica, Arial, sans-serif 
+  base-font()  
   font-size 1.3em 
   color #666 
 
@@ -113,9 +121,7 @@ pre code
   width 960px
   margin 0 auto 0
   padding 0
-  -moz-border-radius 1.5em
-  -webkit-border-radius 1.5em
-  border-radius 1.5em
+  round-corners(1.5em)
   background #fff
 
 #header 
