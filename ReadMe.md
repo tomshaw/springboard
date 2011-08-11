@@ -1,6 +1,6 @@
 # Introduction
 
-This is a Node.js project created to learn the basics of Express, Jade and Stylus, created by [TJ Holowaychuk](http://tjholowaychuk.com) of [LearnBoost](https://www.learnboost.com/). Goals of the project not counting learning opportunities is to create a spring-board/boilerplate application for use in future Express applications that I create. I intend to update this project with future enhancements to make the project more useful and to version those enhancements with tags as time permits.
+This is a Node.js project created to learn the basics of [Express](https://github.com/visionmedia/express) an extremely fast feature rich application development framework, [Jade](https://github.com/visionmedia/jade) a high performance template engine and [Stylus](https://github.com/learnboost/stylus/), a runtime CSS generation language created by [TJ Holowaychuk](http://tjholowaychuk.com) of [LearnBoost](https://www.learnboost.com/). Goals of the project not counting learning opportunities is to create a spring-board/boilerplate application for use in future Express applications that I create. I intend to update this project with future enhancements to make the project more useful and to version those enhancements with tags as time permits.
 
 ## Technologies Used
  - [Express - 2.4.3](https://github.com/visionmedia/express)
