@@ -4,8 +4,8 @@ This is a Node.js project created to learn the basics of [Express](https://githu
 
 ## Technologies Used
  - [Express - 2.4.3](https://github.com/visionmedia/express)
- - [Jade - 0.13.0](https://github.com/visionmedia/jade)
- - [Stylus - 0.13.9](https://github.com/learnboost/stylus/)
+ - [Jade - 0.14.0](https://github.com/visionmedia/jade)
+ - [Stylus - 0.14.0](https://github.com/learnboost/stylus/)
 
 ## Installation Notes 
 
