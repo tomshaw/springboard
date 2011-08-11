@@ -18,7 +18,7 @@ app.configure(function() {
   app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
   app.use(express.methodOverride());
   app.use(stylus.middleware({ 
-      src: __dirname + '/views/styles'
+      src: __dirname + '/public'
     , dest: __dirname + '/public'
     , compile: compile
   }));
