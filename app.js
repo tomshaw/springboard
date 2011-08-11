@@ -15,6 +15,7 @@ app.configure(function() {
   app.use(express.favicon());
   app.use(express.bodyParser());
   app.use(express.cookieParser());
+  app.use(express.session({ secret: 'secretcodehere' }));
   app.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
   app.use(express.methodOverride());
   app.use(stylus.middleware({ 
