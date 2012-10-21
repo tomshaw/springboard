@@ -1,7 +1,7 @@
 var express = require('express'),
     jade = require('jade'),
     stylus = require('stylus'),
-    app = express();
+    app = module.exports = express.createServer();
 
 function compile(str, path) {
   return stylus(str)

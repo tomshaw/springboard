@@ -2,8 +2,8 @@
   "name": "springboard",
   "version": "1.0.0",
   "dependencies": {
-    "express": ">=2.4.3",
-    "jade": ">=0.13.0",
-    "stylus": ">=0.14.0"
+    "express": "=2.4.3",
+    "jade": "=0.13.0",
+    "stylus": "=0.14.0"
   }
 }
