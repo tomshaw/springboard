@@ -1,17 +1,21 @@
-h1= title
+extends ../layout
 
-form#items-form(action='/')
-  table.data-list
-    thead
-      tr
-        th User Name
-        th Comment
-        th Date Created
-    tbody
-      - if (items.length)
-      - each item in items
-        tr.edit-item
-          td= item.name
-          td
-            a(href="http://nodejs.org", title=item.text, target="_blank")= item.text
-          td= item.created
+block content
+
+  h1= title
+
+  form#items-form(action='/')
+    table.data-list
+      thead
+        tr
+          th User Name
+          th Comment
+          th Date Created
+      tbody
+        - if (items.length)
+        - each item in items
+          tr.edit-item
+            td= item.name
+            td
+              a(href="http://nodejs.org", title=item.text, target="_blank")= item.text
+            td= item.created

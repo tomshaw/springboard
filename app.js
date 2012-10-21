@@ -1,7 +1,7 @@
 var express = require('express'),
     jade = require('jade'),
     stylus = require('stylus'),
-    app = module.exports = express.createServer();
+    app = express();
 
 function compile(str, path) {
   return stylus(str)
@@ -31,9 +31,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/login', function(req, res){
-  res.render('form/login.jade', {
-    locals: { user: {} }
-  });
+  res.render('form/login.jade', { user: {} });
 });
 
 app.get('/register', function(req, res){
@@ -52,9 +50,7 @@ app.get('/table', function(req, res){
     , text: "I like Node.js because it's simple to use!"
     , created: new Date()
   }}
-  res.render('table/data.jade', {
-    locals: { title: 'Table Data Listing', description: 'Some simple tables.', items: data }
-  });
+  res.render('table/data.jade', { title: 'Table Data Listing', description: 'Some simple tables.', items: data });
 });
 
 app.listen(3000);
