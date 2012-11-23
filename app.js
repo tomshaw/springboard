@@ -49,6 +49,10 @@ app.get('/table', function(req, res){
       name: "Bruce Lee"
     , text: "I like Node.js because it's simple to use!"
     , created: new Date()
+    }, 2: {
+     name: "Chuck Norris"
+    , text: "I've been using Node to help my training."
+    , created: new Date()
   }}
   res.render('table/data.jade', { title: 'Table Data Listing', description: 'Some simple tables.', items: data });
 });
