@@ -2,15 +2,15 @@ extends ../layout
 
 block content
 
-  h1= title
+  h1= pageheader
 
   form#items-form(action='/')
-    table.data-list
+    table.table.table-striped.table-bordered
       thead
         tr
           th User Name
           th Comment
-          th Date Created
+          th Registered
       tbody
         - if (items.length)
         - each item in items
@@ -18,4 +18,4 @@ block content
             td= item.name
             td
               a(href="http://nodejs.org", title=item.text, target="_blank")= item.text
-            td= item.created
+            td= formatDate(item.created)

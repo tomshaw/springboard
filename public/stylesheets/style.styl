@@ -1,204 +1,32 @@
-base-font()
-  font-family "Helvetica Neue", Helvetica, Arial, sans-serif
-  
-round-corners(radius)
-  -moz-border-radius radius
-  -webkit-border-radius radius
-  border-radius radius
-  
-base-darkblue-colour = #224466
+@import "bootstrap.css"
 
-* 
-  margin 0
-  padding 0
+body
+    padding-top 60px
+    background-color #f5f5f5
+    
+.container
+    width 940px
+    
+.form-signin 
+    max-width 300px
+    padding 19px 29px 29px
+    margin 0 auto 20px
+    background-color #fff
+    border 1px solid #e5e5e5
+    -webkit-border-radius 5px
+    -moz-border-radius 5px
+    border-radius 5px
+    -webkit-box-shadow 0 1px 2px rgba(0,0,0,.05)
+    -moz-box-shadow 0 1px 2px rgba(0,0,0,.05)
+    box-shadow 0 1px 2px rgba(0,0,0,.05)
+      
+.form-signin .form-signin-heading, 
+.form-signin .checkbox
+    margin-bottom 10px
 
-html  
-  overflow -moz-scrollbars-vertical 
-  overflow-x auto overflow-y scroll 
-
-body 
-  background #eeeeee
-  color #331412
-  font 12px/15px Arial, Helvetica, sans-serif
-  text-align left
-
-.clear 
-  clear both
-
-img 
-  color #ff0000
-
-a img 
-  border 0
-
-a, a:link, a:visited, a:hover, a:active 
-  text-decoration none
-  color #331412
-
-ol, ul, li  
-  list-style none  
-
-p  
-  color #333333 
-  base-font() 
-  font-size 1.3em 
-  line-height 1.3em 
-  margin .5em 0 
-
-h1,h2,h3,h4,h5,h6  
-  color #333333 
-  base-font()  
-  line-height 1.2em 
-  padding .3em 0 
-
-h1  
-  font-size 40px 
-  letter-spacing -0.04em 
-h2  
-  font-size 35px 
-  letter-spacing -0.03em 
-h3  
-  font-size 30px 
-  letter-spacing -0.02em 
-h4  
-  font-size 25px 
-  letter-spacing -0.02em 
-h5  
-  font-size 20px 
-  letter-spacing -0.02em 
-h6  
-  font-size 15px 
-  letter-spacing -0.02em 
-
-#content ul.list 
-  margin .5em 1.5em
-
-#content ul.list li 
-  list-style-image url(../images/unchecked.gif)
-  border-bottom 1px solid #ccc
-  padding .5em
-  base-font()  
-  font-size 1.3em 
-  color #666 
-
-#content ul.list li:hover 
-  cursor pointer
-  list-style-image url(../images/checked.gif)
-  background-color #f2f2f2
-  color #000 
-
-blockquote 
-  font-size 16px
-  color #333333 
-  line-height 17px
-  margin 2em .7em 1.0em .7em
-  padding .4em 1em 1em 3em 
-  border-left 1px dashed #333333 
-  background #ddeef6 url(../images/quote.gif) no-repeat 
-
-blockquote p:first-letter  
-  float left 
-  margin .1em .3em .1em 0 
-  font-size 300% 
-  font-weight bold
-  
-pre 
-  font-size 12px
-  padding 0 0 0 3em
-  margin 0
-  background #f0f0f0
-  line-height 20px
-  background url(../images/notepad.gif) repeat-y left top
-  border none
-  width 600px
-  overflow auto
-  overflow-Y hidden
-
-pre code 
-  margin 0 0 0 40px
-  padding 18px 0
-  display block  
-
-#page 
-  width 960px
-  margin 0 auto 0
-  padding 0
-  round-corners(1.5em)
-  background #fff
-
-#header 
-  text-align center
-  background #5599bb
-  padding .2em
-
-#header h1 
-  padding 0
-  margin 0 .5em
-  font-size 4em
-  color #f7f7f7
-
-#header p 
-  padding 0
-  margin 0 0 .5em
-  font-size 1.4em
-  color #f7f7f7
-
-#nav 
-  width 100%
-  float left
-  margin 0 0 1.5em 0
-  padding 0
-  list-style none
-  background-color base-darkblue-colour 
-  border-top 1px solid #61a3c4
-  border-bottom 1px solid #333333 
-
-#nav li 
-  float left
-
-#nav ul li 
-  display inline
-  float left
-  position relative
-
-#nav li ul 
-  margin 0 0 0 5px
-  padding 0px
-  display none
-  position absolute
-  z-index 1
-
-#nav li:hover ul 
-  display block
-
-#nav li li 
-  display list-item
-  width 160px
-  background-color base-darkblue-colour
-  border-top 1px solid #61a3c4
-  border-bottom 1px solid #333333
-
-#nav li a 
-  display block
-  padding 10px 15px 8px 15px
-  text-decoration none
-  font-weight bold
-  color #fff
-  border-right 1px solid #61a3c4
-
-#nav li a:hover 
-  color #fff
-  background-color #496f96
-
-#content 
-  padding 0 1em 2em 1em
-  margin 0 1em 1em 1em
-  
-@import 'forms'
-@import 'tables'
-
-#footer 
-  margin 0 auto
-  font-size 1.3em
-  text-align center
-  color #331412
+.form-signin input[type="text"], 
+.form-signin input[type="password"] 
+    font-size 16px
+    height auto
+    margin-bottom 15px
+    padding 7px 9px
